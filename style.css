@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+:root {
+    --primary-color: #55ad53;
+    --background-color : #9be089;
+    --dark-color: #000;
+}
+html{
+    font-size :62.5%;
+    font-family: 'poppis', sans-serif;
+}
+*{
+    padding: 0;
+    margin : 0;
+    box-sizing : border-box;
+}
+/*utiles*/
+.container{
+    max-width : 120rem;
+    margin:  auto;
+}
+/*header*/
+.container {
+    background-color : #55ad53;
+}
+
+.hero{
+display : flex;
+justify-content: space-between;
+align-items: center;
+padding : 2rem;
+background-color : #9be089;
+
+}   
+
+/*Estilo a los elementos "container hero"*/
+/*Customer-support*/
+.customers-support{
+display: flex;
+align-items: center;
+gap: 1rem;
+}
+.text-number-customers{
+    display: flex;
+    flex-direction : column;
+    
+}
+.customers-support i{
+    font-size : 3rem;
+}
+/*Logo*/
+.container-logo{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.container-logo h1 a{
+    text-decoration: none;
+    color: black;
+    font-size: 3rem;
+}
+.container-logo i{
+    font-size : 3rem;
+}
+/*user*/
+.container-user{
+    display: flex;
+    flex-direction: column;
+    gap:0,8rem;
+}
+
