@@ -155,10 +155,51 @@ cursor: pointer;
 }
 
 .search-form input{
+    
     outline: none;
     border: none;
     width: 17rem;
     font-size: 1.4rem;
     padding: 0 2rem;
+    margin-left: 1rem;
     color: #cccccc;
+}
+.btn-search{
+    background-color:var(--background-color);
+    border-style: none;
+    padding: 1rem;
+    border-radius: 3rem;
+    margin-left: 0,5rem;
+    
+    
+}
+
+/* ESTILO AL BANNER DONDE */
+.banner{
+    box-sizing: border-box;
+    margin: auto;
+    max-width: 120rem;
+    background-image: linear-gradient(50deg,var(--background-color),#00000020), url('./img/img1.jpg');
+    background-size:cover;
+    height: 60rem;
+}
+.content-banner{
+    display: flex;
+    flex-direction:column;
+    max-width: 90rem;
+    gap: 3rem;
+    position:absolute;
+    right: 50%;
+    bottom: 50%;
+}
+.text-banner{
+    font-size:2rem;
+    color : white;
+    font-weight: 50px;
+}
+.title-two-banner{
+    font-size:5rem;
+    font-weight: 700;
+    color: darkgreen;
+    opacity: 70%;
 }
