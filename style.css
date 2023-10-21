@@ -230,6 +230,7 @@ cursor: pointer;
 	grid-template-columns: repeat(auto-fit, minmax(20rem, 2fr));
 	gap: 3rem;
     box-sizing:border-box;
+    background-color: var(--background-color);
     
 }
 .card-product{
@@ -239,8 +240,17 @@ cursor: pointer;
     cursor: pointer;
     border-style: solid;
     border-color:var(--primary-color);
+    background-color: white;
     
 }
+.top-products h1{
+    font-size: 3rem;
+    padding: 2rem; 
+    color: var(--dark-color);
+    background-color:var(--background-color);
+    
+}
+
 .conainer-img{
     position:absolute;
 }
@@ -254,7 +264,7 @@ cursor: pointer;
     grid-template-rows: repeat(4, min-content);
     grid-template-columns: 1fr 1fr;
     row-gap: 1rem;
-    
+    box-sizing: border-box;
     
 }
 .start{
@@ -266,8 +276,39 @@ cursor: pointer;
     grid-row: 2/3;
     grid-column: 1/-1;
     font-size: 1.6rem;
+    transition: 0.30s;
 }
 .content-card-product h3:hover{
     color: var(--primary-color);
 }
+.add-car{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 30px;
+    height:30px;
+    border : 2px solid var(--primary-color);
+    border-radius:50%;
+    transition: 0.30s;
+}
+.add-car:hover{
+background-color: var(--primary-color);
+}
+.fa-cart-shopping{
+    padding: 1.5rem;
+}
+.fa-cart-shopping:hover{
+    color:white;
+}
+
+
+.content-card-product .price {
+	justify-self: end;
+	align-self: center;
+
+	font-size: 1.7rem;
+	font-weight: 600;
+}
+
 
