@@ -179,7 +179,7 @@ cursor: pointer;
     box-sizing: border-box;
     margin: auto;
     max-width: 120rem;
-    background-image: linear-gradient(50deg,var(--background-color),#00000020), url('./img/img1.jpg');
+    background-image: linear-gradient(50deg,var(--dark-color),#00000020), url('./img/img1.jpg');
     background-size:cover;
     height: 60rem;
 }
@@ -193,13 +193,27 @@ cursor: pointer;
     bottom: 50%;
 }
 .text-banner{
-    font-size:2rem;
+    font-size:1.5rem;
     color : white;
     font-weight: 50px;
 }
 .title-two-banner{
-    font-size:5rem;
+    font-size:3rem;
     font-weight: 700;
-    color: darkgreen;
+    color: white;
     opacity: 70%;
 }
+.content-banner a{
+    margin-top: 2rem;
+	text-decoration: none;
+	color: #fff;
+	background-color: var(--primary-color);
+	/*display: inline-block;*/
+	padding: 1rem 3rem;
+	text-transform: uppercase;
+	border-radius: 3rem;
+}
+
+
+
+/*ESTILO A CARTA DE PRODUCTOS*/
