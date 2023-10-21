@@ -217,3 +217,57 @@ cursor: pointer;
 
 
 /*ESTILO A CARTA DE PRODUCTOS*/
+
+/*.top-products{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        margin-bottom: 3rem;
+}
+*/
+.container-products {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(20rem, 2fr));
+	gap: 3rem;
+    box-sizing:border-box;
+    
+}
+.card-product{
+    
+    padding: 2rem 3rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    border-style: solid;
+    border-color:var(--primary-color);
+    
+}
+.conainer-img{
+    position:absolute;
+}
+.container-img img{
+    width:100%;
+}
+
+.content-card-product{
+    display:grid;
+    justify-content:center;
+    grid-template-rows: repeat(4, min-content);
+    grid-template-columns: 1fr 1fr;
+    row-gap: 1rem;
+    
+    
+}
+.start{
+    
+    grid-row: 1/2;
+    grid-column: 1/-1;
+}
+.content-card-product h3{
+    grid-row: 2/3;
+    grid-column: 1/-1;
+    font-size: 1.6rem;
+}
+.content-card-product h3:hover{
+    color: var(--primary-color);
+}
+
