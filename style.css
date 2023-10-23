@@ -251,8 +251,57 @@ cursor: pointer;
 }
 
 
+/*CATEGORIAS */
+.categories-title{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 120rem;
+    margin: auto;
+    background-color: var(--background-color);
+    padding: 1rem;
+    font-size: 1.6rem;
+}
+.categories-title h1{
+    font-weight: 1;
+}
+.categories{
+display: flex;
+flex-direction:row;
+align-items: center;
+justify-content: center;
+gap:3.5rem;
 
-/*ESTILO A CARTA DE PRODUCTOS*/
+padding : 3rem;
+min-width: 20rem;
+
+background-color: var(--background-color);
+}
+.container-categories{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    width: 20rem;
+    height: 20rem;
+    
+    background-image: url('./img/categoria.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+
+    border-radius: 1rem;
+
+    font-size: 1.4rem;
+}
+.container-categories:hover{
+     background-image: linear-gradient(50deg, #fff,#00000020),url('./img/categoria.jpg');
+}
+
+
+/*FIN ESTILO CATEGORIAS*/
 
 /*.top-products{
         display: flex;
@@ -261,7 +310,7 @@ cursor: pointer;
         margin-bottom: 3rem;
 }
 */
-.space{
+.space-title{
     display:flex;
     justify-content: center;
     align-items: center;
@@ -274,7 +323,11 @@ cursor: pointer;
 
     font-size: 1.6rem;
 }
+.space-title h1{
+    font-weight: 2;
+}
 
+/*STARD GRILLA PRODUCTOS STYLE*/
 .container-products {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(20rem, 2fr));
@@ -412,10 +465,5 @@ background-color: var(--primary-color);
 
 
 /*ESPACIO RESERVADO PARA MAS */
-.space-reserved{
-    padding: 50rem;
-    background-color: var(--background-color);
-    max-width: 120rem;
-    margin: auto;
-}
+
 
